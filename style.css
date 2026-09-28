@@ -1,0 +1,36 @@
+.calculator{
+            
+            width: 193px;
+            flex-wrap: wrap;
+            border: 2px solid black;
+            margin: auto;
+            padding: 3px;
+            
+
+        }
+        #display{
+            text-align: right;
+            width: 185px;
+            height: 45px;
+        }
+        .btn{
+            height: 45px;
+            width: 45px;
+            margin-top: 3px;
+            
+            font-size: larger;;
+        
+        }
+        #eqlbtn{
+            width: 93px;
+            height: 45px;
+            background-color: orange;
+            color: white;
+        }
+        #op{
+            background-color: rgb(245, 214, 157);
+            color: orange;
+        }
+        .btn:active{
+            background-color: blueviolet;
+        }
